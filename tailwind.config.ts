@@ -20,12 +20,17 @@ const config = {
     extend: {
       colors: {
         dark: {
-          1: '#1C1F2E',
-          2: '#161925',
+          1: '#00009b',
+          2: '#99F',
          },
          blue:{
           1: '#0E78F9',
          },
+         sky: {
+          1: '#A9A9A9',
+          2: '#ECF0FF',
+          3: '#F5FCFF',
+        },
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
@@ -64,6 +69,9 @@ const config = {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
+      },
+      backgroundImage:{
+        hero:"url('/images/background.png')"
       },
       keyframes: {
         "accordion-down": {
