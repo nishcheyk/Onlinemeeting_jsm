@@ -31,6 +31,9 @@ const config = {
           2: '#ECF0FF',
           3: '#F5FCFF',
         },
+        beige:{
+          1:"#F5FCFF",
+        },
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
