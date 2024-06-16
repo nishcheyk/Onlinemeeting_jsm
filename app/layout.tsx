@@ -17,16 +17,16 @@ export default function RootLayout({
 }>) {
   return (
     <ClerkProvider
-    appearance={{
-      layout: {
-        logoImageUrl: "/icons/connect.png",
-      },
-      variables: {
-        colorPrimary: "#3700B3",
-        colorBackground: "#CCCCFF",
-        colorInputBackground: "#99f",
-      },
-    }}
+      appearance={{
+        layout: {
+          logoImageUrl: "/icons/connect.png",
+        },
+        variables: {
+          colorPrimary: "#3700B3",
+          colorBackground: "#CCCCFF",
+          colorInputBackground: "#99f",
+        },
+      }}
     >
       <html lang="en">
         <body className={`${inter.className} bg-dark-2 `}>{children}</body>

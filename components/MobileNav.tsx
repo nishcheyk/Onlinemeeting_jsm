@@ -17,7 +17,7 @@ const MobileNav = () => {
   const pathname = usePathname();
 
   return (
-    <section className="w-full max-w-[264px]">
+    <section className="w-full max-w-[264px] rounded-[20px]">
       <Sheet>
         <SheetTrigger asChild>
         <Image
@@ -55,7 +55,7 @@ const MobileNav = () => {
                         href={link.route}
                         key={link.label}
                         className={cn(
-                          "flex gap-4 items-center p-4 rounded-lg justify-start",
+                          "flex gap-4 items-center p-4 justify-start rounded-[20px]",
                           {
                             "bg-blue-1": isActive,
                           }

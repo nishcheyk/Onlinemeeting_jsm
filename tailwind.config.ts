@@ -20,19 +20,23 @@ const config = {
     extend: {
       colors: {
         dark: {
-          1: '#00009b',
-          2: '#99F',
+          2: '#7A4D9F',
+          1: '#4B3160',
          },
          blue:{
-          1: '#0E78F9',
+          1: '#22235F',
          },
          sky: {
           1: '#A9A9A9',
           2: '#ECF0FF',
           3: '#F5FCFF',
         },
-        beige:{
-          1:"#F5FCFF",
+        layout:{
+          1:"#22235F",
+          2:"#7A4D9F",
+          3:"#EB68A0",
+          4:"#01959C",
+          5:"#F0C326"
         },
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
